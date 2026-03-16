@@ -42,7 +42,16 @@ public class Service {
     }
 
     public void deleteBookById(int id) {
-        books.removeIf(book -> book.getId() == id);
+        Iterator<Book> iterator = books.iterator();
+
+        while (iterator.hasNext()) {
+            Book book = iterator.next();
+
+            if (book.getId() == id) {
+                iterator.remove();
+                break;
+            }
+        }
     }
 
     public List<Book> getMostExpensiveBooks() {
@@ -143,8 +152,10 @@ public class Service {
 
         for (Book book : books) {
             String currentPublisher = book.getPublisher();
+
             if (result.containsKey(currentPublisher)) {
-                result.compute(currentPublisher, (k, currentCount) -> currentCount + 1);
+                int currentCount = result.get(currentPublisher);
+                result.put(currentPublisher, currentCount + 1);
             } else {
                 result.put(currentPublisher, 1);
             }
