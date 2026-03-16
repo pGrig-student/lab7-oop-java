@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Кобзар",
+    "author": "Шевченко Т.Г.",
+    "publisher": "Дніпро",
+    "year": 1985,
+    "pageCount": 400,
+    "price": 150.0,
+    "genre": "Поезія"
+  },
+  {
+    "id": 2,
+    "title": "Тіні забутих предків",
+    "author": "Коцюбинський М.М.",
+    "publisher": "А-ба-ба-га-ла-ма-га",
+    "year": 2015,
+    "pageCount": 120,
+    "price": 200.5,
+    "genre": "Повість"
+  },
+  {
+    "id": 3,
+    "title": "Захар Беркут",
+    "author": "Франко І.Я.",
+    "publisher": "Дніпро",
+    "year": 1990,
+    "pageCount": 250,
+    "price": 80.0,
+    "genre": "Історична повість"
+  },
+  {
+    "id": 4,
+    "title": "Гайдамаки",
+    "author": "Шевченко Т.Г.",
+    "publisher": "Основа",
+    "year": 2005,
+    "pageCount": 180,
+    "price": 120.0,
+    "genre": "Поема"
+  },
+  {
+    "id": 5,
+    "title": "Java. Ефективне програмування",
+    "author": "Джошуа Блох",
+    "publisher": "Addison-Wesley",
+    "year": 2019,
+    "pageCount": 450,
+    "price": 1200.0,
+    "genre": "Програмування"
+  },
+  {
+    "id": 6,
+    "title": "Чистий код",
+    "author": "Роберт Мартін",
+    "publisher": "Prentice Hall",
+    "year": 2008,
+    "pageCount": 464,
+    "price": 850.0,
+    "genre": "Програмування"
+  },
+  {
+    "id": 7,
+    "title": "Алгоритми: побудова і аналіз",
+    "author": "Томас Кормен",
+    "publisher": "КІС",
+    "year": 2019,
+    "pageCount": 1328,
+    "price": 1500.0,
+    "genre": "Програмування"
+  },
+  {
+    "id": 8,
+    "title": "Патерни проектування",
+    "author": "Еріх Гамма",
+    "publisher": "Addison-Wesley",
+    "year": 2019,
+    "pageCount": 395,
+    "price": 950.0,
+    "genre": "Програмування"
+  },
+  {
+    "id": 9,
+    "title": "1984",
+    "author": "Джордж Орвелл",
+    "publisher": "Видавництво Жупанського",
+    "year": 2015,
+    "pageCount": 320,
+    "price": 250.0,
+    "genre": "Антиутопія"
+  },
+  {
+    "id": 10,
+    "title": "Який чудовий світ новий!",
+    "author": "Олдос Гакслі",
+    "publisher": "КСД",
+    "year": 2015,
+    "pageCount": 352,
+    "price": 220.0,
+    "genre": "Антиутопія"
+  },
+  {
+    "id": 11,
+    "title": "Колгосп тварин",
+    "author": "Джордж Орвелл",
+    "publisher": "Видавництво Жупанського",
+    "year": 2015,
+    "pageCount": 120,
+    "price": 150.0,
+    "genre": "Антиутопія"
+  }
+]
